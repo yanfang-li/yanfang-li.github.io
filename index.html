@@ -1,0 +1,176 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <!--tile and icon-->
+  <title>Yanfang Li - AMSS</title>
+  <link rel="icon" type="image/png" href="images/favicon.png"/>
+  
+  <!--meta-->
+  <meta name="description" content="Yanfang Li, Postdoctoral Fellow of AMSS" />
+  <meta name="google-site-verification" content="zKoZ-prRc76I8iJIlJ9P1ao01bUPS95ah5DnTLyU-oc" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Julius+Sans+One" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+	<script>
+	$(document).ready(function(){
+	  $("a").on('click', function(event) {
+	    if (this.hash !== "") {
+	      event.preventDefault();
+	
+	      var hash = this.hash;
+	
+	      $('html, body').animate({
+	        scrollTop: $(hash).offset().top
+	      }, 500, function(){
+	        window.location.hash = hash;
+	      });
+	    }
+	  });
+	});
+	</script>
+</head>
+
+<!--main part of homepage-->
+<body>
+  <!--banner info-->
+  <div class="banner">
+    <div id="header">
+      <div id="name">Yanfang Li (李艳芳)</div>
+      <div id="email">Email: liyanfang.amss.ac.cn</div>
+      <div id="navigator">
+        <div class="nav_cell"><a class="nav" href="#home", style="color:white; border-bottom:none">Home</a></div>
+        <div class="nav_cell"><a class="nav" href="#publication", style="color:white; border-bottom:none">Publication</a></div>
+        <div class="nav_cell"><a class="nav" href="#teaching", style="color:white; border-bottom:none">Teaching</a></div>
+        <div class="nav_cell"><a class="nav" href="#awards", style="color:white; border-bottom:none">Awards</a></div>
+        <!--<div class="nav_cell"><a class="nav" href="blog.html", style="color:white; border-bottom:none">Blog</a></div>-->
+        <div class="nav_cell"><a class="nav" href="#contact", style="color:white; border-bottom:none">Contact</a></div>
+      </div>
+    </div>
+  </div>
+   
+  <!--content of homepage-->
+  <div id="main">
+    
+    <!--home part: picture & selfie & research interest-->
+    <div class="content">
+      <a class="anchor" id="home"></a>
+      <div class="introduction">
+        <div id="selfie">
+          
+          <!-- picture -->
+          <img src="images/selfie.jpg" /><br>
+          <div style="text-align: center; margin-top: 10px; font: normal 0.90em 'trebuchet ms', arial, sans-serif;"></div>
+        </div>
+        
+        <!-- modify selfie -->
+        <div class="right">
+        <p>I am currently a postdoc at the <a class="link" href="http://www.amss.ac.cn/" target="_blank">Academy of Mathematics and Systems Science (AMSS) of CAS</a>, working with Professor <a class="link" href="http://www.zhanglab-amss.org/homepage/people.html" target="_blank">Shihua Zhang</a>.</p>
+        <p>I graduated from <a class="link" href="http://english.math.pku.edu.cn/" target="_blank">School of Mathematical Sciences at Peking University</a> in June 2017 under the supervision of Professor <a class="link" href="https://sph.pku.edu.cn/info/1418/4187.htm" target="_blank">Jinzhu Jia</a>. From August 2015 to August 2016, I studied in <a class="link" href="https://www.cmu.edu/dietrich/statistics-datascience/index.html" target="_blank">Statistics and Data Science at Carnegie Mellon University</a> as a visiting  student under the supervision of Professor <a class="link" href="https://www.stat.cmu.edu/~jinglei/" target="_blank">Jing Lei</a>. After graduation I worked as a data scientist at <a class="link" href="https://en.percent.cn/" target="_blank">Percent Technology</a> for a year and a half.</p>
+        
+        <!--research interest-->
+        <div class="subtitle">Research Interests:</div>
+          <ul>
+               <li class="big">Statistical Machine Learning.</li>
+               <li class="big">High-dimensional Statistical Inference.</li>
+               <li class="big">Bioinformatics.</li>
+          </ul>
+        </div>
+        
+      </div>
+    </div>
+
+    <hr>
+
+    <!--publication part-->
+    <div class="content">
+      <div class="title">Publication</div>
+      <a class="anchor" id="publication"></a>
+
+      <p style="margin-left: 20px">My papers on <a class="link" href="https://scholar.google.com/citations?user=WExqV40AAAAJ&hl=zh-CN&oi=sra" target="_blank">Google Scholar</a>.</p>
+      
+      <div class="subtitle">Peer-Reviewed Articles:</div>
+
+      <!-- modify publications here -->
+      <ol type='1'>
+        <li><span class="emph">Li, Y.</span><sup> # </sup> , Lei, J. (2018)<br>
+  			  <a class="link" href="https://www.tandfonline.com/doi/pdf/10.1080/02331888.2018.1469020?needAccess=true" target="_blank">Sparse subspace linear discriminant analysis.</a><br>
+  			  <i>Statistics, 52(4), 782-800.</i><br>
+        </li>
+        
+        <li><span class="emph">Li, Y.</span>, Jia, J.<sup> # </sup>  (2017)<br>
+  			  <a class="link" href="files/EJS_sparseLDA_2017.pdf" target="_blank">L1 least squares for sparse high-dimensional LDA.</a><br>
+  			  <i>Electronic Journal of Statistics, 11(1), 2499-2518.</i><br>
+        </li>
+      </ol>
+      
+    <hr>
+    
+    <!--teaching part-->
+    <div class="content">
+      <div class="title">Teaching Assistant</div>
+      <a class="anchor" id="teaching"></a>
+      
+      <!--<div class="subtitle">Teaching Assistant:</div>-->
+
+      <ul>
+			  <li>Fall 2014: Survival analys (Instructor: Prof. Xiangzhong Fang) at Peking University</li>
+        <li>Spring 2014: Biostatistics (Instructor: Prof. Ruibin Xi) at Peking University</li>
+			  <li>Fall 2013: Mathematical Statisti (Instructor: Prof. Ruibin Xi) at Peking University</li>
+      </ul>
+    </div>
+
+    <hr>
+
+    <!--award part-->
+    <div class="content">
+      <div class="title">Awards</div>
+      <a class="anchor" id="awards"></a>
+      <ul>
+        <li>Procter Gamble Award, Chinese Society of Probability and Statistic, 2015</li>
+        <li>Jiang Zehan Scholarship, Peking University, 2015</li>
+        <li>Honor of Merit Student, Peking University, 2014</li>
+        <li>92 Scholarship, Peking University, 2014</li>
+        <li>The First Prize Scholarship, Jilin University, 2011</li>
+        <li>National Scholarship, Ministry of Education of the PRC, 2010</li>
+        <li>National Scholarship,  Ministry of Education of the PRC, 2009</li>
+      </ul>
+      <hr>
+    </div>
+
+    <!--contact part-->
+    <div class="content">
+        <div class="title">Contact</div>
+        <a class="anchor" id="contact"></a>
+          <ul style="list-style-type:none">
+            <li>Add: No. 55, Zhongguancun East Road, Haidian District, Beijing 100190</li>
+            <li>Office: Room 423, Siyuan Building</li>
+            <li>Email: liyanfang@amss.ac.cn</li>
+          </ul>
+    </div>
+    
+    <hr>
+    
+  <div style="margin-top: 10px; text-align: center; font: normal 100% 'lucida sans unicode', arial, sans-serif;color: #AAA;">
+  Copyright &copy; 2022, Yanfang Li.<br>
+  </div>
+
+	<!-- Start of StatCounter Code for Default Guide -->
+	<script type="text/javascript">
+		var sc_project=10595714; 
+		var sc_invisible=1; 
+		var sc_security="ee39bc4f"; 
+		var scJsHost = (("https:" == document.location.protocol) ?
+			"https://secure." : "http://www.");
+		document.write("<sc"+"ript type='text/javascript' src='" +
+			scJsHost+
+			"statcounter.com/counter/counter.js'></"+"script>");
+	</script>
+	<noscript><div class="statcounter"><a title="shopify visitor
+		statistics" href="http://statcounter.com/shopify/"
+		target="_blank"><img class="statcounter"
+		src="http://c.statcounter.com/10595714/0/ee39bc4f/1/"
+		alt="shopify visitor statistics"></a></div></noscript>
+		<!-- End of StatCounter Code for Default Guide -->
+
+</body>
+</html>
