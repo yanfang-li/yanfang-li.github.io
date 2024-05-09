@@ -60,7 +60,7 @@ body {
 .nav_cell {
   display: inline-block;
   color: #FFF;
-  font: normal 120% arial, sans-serif;
+  font: normal 110% arial, sans-serif;
   text-transform: uppercase;
   padding:0 10px;
 }
@@ -123,7 +123,7 @@ ul li {
   line-height: 125%;
 }
 ul {
-  list-style-type: circle;
+  list-style-type: disc;
   margin: 2px 0 22px 0px;
 }
 ul li.big{
